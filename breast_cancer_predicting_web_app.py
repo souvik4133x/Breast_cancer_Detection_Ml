@@ -8,7 +8,7 @@ Created on Fri Jan 26 01:44:12 2024
 import numpy as np
 import pickle 
 import streamlit as st
-loaded_model = pickle.load(open('C:/Users/souvi/OneDrive/Desktop/machine_learning/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 def pre(input_data):
     
